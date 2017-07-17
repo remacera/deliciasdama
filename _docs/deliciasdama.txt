@@ -1,0 +1,50 @@
+Pessoas (Lista, editar, excluir, cadastrar)
+	Tipo (Cliente / Fornecedor)
+	Nome
+	Telefone
+	Endereço
+	Bairro
+	Cidade
+	Facebook
+
+Produto (Lista, editar, excluir, cadastrar)
+	Nome
+	Preço de Venda
+	Preço de Custo
+	Estoque
+
+Matéria Prima (Lista, editar, excluir, cadastrar)
+	Nome
+	Custo
+
+Ficha Técnica (Dentro do cadastro do produto - Lista, editar, excluir, cadastrar)
+	Produto
+	Matéria Prima
+	Quantidade
+	Custo MP
+	Custo Total
+
+Movimentação
+	Tipo (Vendas / Compras)
+	Pessoa
+	Valor produtos
+	Descontos
+	Valor total da NF com Desconto
+	Observações
+
+Movimentação itens (Dentro da movimentação - Lista, editar, excluir, cadastrar)
+	movimentação
+	produtos
+	quantidade
+	valor unitário
+	valor total
+
+Dashboard (Mensal)
+	Financeiro (Entradas - Saídas - Saldo)
+	Produção (Produzidos - Produzir - Saldo)
+	Vendas da Semana
+
+Produção (Lista, editar, excluir, cadastrar)
+	produto
+	quantidade
+	data
